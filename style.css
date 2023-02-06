@@ -349,6 +349,14 @@ nav .fa-solid {
         margin-left: 0px;
         margin-right: 15px;
     }
+    .header {
+        min-height: 50vh;
+        width: 100%;
+        background-image: url(./assets/images/banner.png);
+        background-position: center;
+        background-size: cover;
+        position: relative;
+    }
 }
 
 
