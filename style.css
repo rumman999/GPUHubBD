@@ -390,8 +390,12 @@ nav .fa-solid {
     }
 }
 
+.card{
+    transition: transform .5s ease
+}
+
 .card:hover{
-    zoom: 101.75%;
+    transform: scale(1.1);
     box-shadow: #000000 .5px 1px;
 }
 
