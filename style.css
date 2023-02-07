@@ -399,6 +399,7 @@ nav .fa-solid {
     text-align: center;
     padding-bottom: 0px;
     background-color: #181717;
+    
 }
 
 .footer h4 {
@@ -406,13 +407,15 @@ nav .fa-solid {
     margin-top: 20px;
     font-weight: 600;
     color: white;
-    padding-top: 3%;
-    padding-bottom: 1%;
+    padding-top: 2.7%;
+    padding-bottom: .5%;
+    
 }
 
 
 .footer-text {
     color: white;
+   
 }
 
 
