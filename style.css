@@ -406,7 +406,10 @@ nav .fa-solid {
     margin-top: 20px;
     font-weight: 600;
     color: white;
+    padding-top: 3%;
+    padding-bottom: 1%;
 }
+
 
 .footer-text {
     color: white;
