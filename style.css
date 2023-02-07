@@ -67,7 +67,6 @@ nav img {
 
 }
 
-
 .text-box {
     width: 90%;
     color: #fff;
@@ -349,6 +348,7 @@ nav .fa-solid {
         margin-left: 0px;
         margin-right: 15px;
     }
+
     .header {
         min-height: 50vh;
         width: 100%;
@@ -398,13 +398,21 @@ nav .fa-solid {
     width: 100%;
     text-align: center;
     padding-bottom: 0px;
+    background-color: #181717;
 }
 
 .footer h4 {
     margin-bottom: 25px;
     margin-top: 20px;
     font-weight: 600;
+    color: white;
 }
+
+.footer-text {
+    color: white;
+}
+
+
 
 .icons .fa-brands {
     color: #f44336;
@@ -427,24 +435,24 @@ nav .fa-solid {
 
 /* About Us page */
 
-.sub-header{
+.sub-header {
     height: 30vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(./assets/images/banner.png);
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(./assets/images/banner.png);
     background-position: center;
     background-size: cover;
     text-align: center;
     color: #fff;
-    
+
 }
 
 
-.sub-header h1{
+.sub-header h1 {
     margin-top: 100px;
     font-size: 42px;
 }
 
-.about-us{
+.about-us {
     width: 80%;
     margin: auto;
     padding-top: 80px;
@@ -452,32 +460,32 @@ nav .fa-solid {
 
 }
 
-.about-col{
+.about-col {
     flex-basis: 48%;
     padding: 30px 2px;
 }
 
-.about-col img{
+.about-col img {
     width: 100%;
 }
 
 
-.about-col h1{
+.about-col h1 {
     padding-top: 0;
 
 }
 
-.about-col p{
+.about-col p {
     padding: 15px 0 25px;
 }
 
-.red-btn{
+.red-btn {
     border: 1px solid #f44336;
     background: transparent;
     color: #f44336;
 }
 
-.red-btn:hover{
+.red-btn:hover {
     color: white;
 }
 
@@ -485,42 +493,42 @@ nav .fa-solid {
 
 /* blog content */
 
-.blog-content{
+.blog-content {
     width: 80%;
     margin: auto;
     padding: 60px 0;
 }
 
 
-.blog-left{
+.blog-left {
     flex-basis: 65%;
 
 }
 
-.blog-left img{
+.blog-left img {
     width: 100%;
 }
 
-.blog-left h2{
+.blog-left h2 {
     color: #222;
     font-weight: 600;
     margin: 30px 0;
 }
 
 
-.blog-left p{
+.blog-left p {
     color: #999;
     padding: 0;
 }
 
 
 
-.blog-right{
+.blog-right {
     flex-basis: 32%;
 
 }
 
-.blog-right h3{
+.blog-right h3 {
     background: #f44336;
     color: white;
     padding: 7px 0;
@@ -529,7 +537,7 @@ nav .fa-solid {
 }
 
 
-.blog-right div{
+.blog-right div {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -540,18 +548,19 @@ nav .fa-solid {
 
 
 
-.comment-box{
+.comment-box {
     border: 1px solid #ccc;
     margin: 50px 0;
     padding: 10px 20px;
 }
 
-.comment-box h3{
+.comment-box h3 {
     text-align: left;
 }
 
 
-.comment-form input, .comment-form textarea{
+.comment-form input,
+.comment-form textarea {
     width: 100%;
     padding: 10px;
     margin: 15px 0;
@@ -561,14 +570,14 @@ nav .fa-solid {
     background: #f0f0f0;
 }
 
-.comment-form button{
+.comment-form button {
     margin: 10px 0;
 
 }
 
 
-@media(max-width:700px){
-    .sub-header h1{
+@media(max-width:700px) {
+    .sub-header h1 {
         font-size: 24px;
     }
 }
@@ -576,52 +585,52 @@ nav .fa-solid {
 
 /* contact us page */
 
-.location{
+.location {
     width: 80%;
     margin: auto;
     padding: 80px 0;
 }
 
 
-.location iframe{
+.location iframe {
     width: 100%;
 
 }
 
 
-.contact-us{
+.contact-us {
     width: 80%;
     margin: auto;
 }
 
 
-.contact-col{
+.contact-col {
     flex-basis: 48%;
     margin-bottom: 30px;
 }
 
-.contact-col div{
+.contact-col div {
     display: block;
     align-items: center;
     margin-bottom: 40px;
-    
+
 }
 
 
 
-.contact-col div .icons{
+.contact-col div .icons {
     font-size: 28px;
     color: #f44336;
     margin: 10px;
     margin-right: 30px;
 }
 
-.contact-col div p{
+.contact-col div p {
     padding: 0;
     color: #999;
 }
 
-.contact-col div h5{
+.contact-col div h5 {
     font-size: 20px;
     margin-bottom: 5px;
     color: #555;
@@ -629,7 +638,8 @@ nav .fa-solid {
 }
 
 
-.contact-col input, .contact-col textarea{
+.contact-col input,
+.contact-col textarea {
     width: 100%;
     padding: 15px;
     margin-bottom: 17px;
@@ -638,6 +648,6 @@ nav .fa-solid {
     box-sizing: border-box;
 }
 
-.gpu-grid2{
+.gpu-grid2 {
     padding-left: 9%;
 }
