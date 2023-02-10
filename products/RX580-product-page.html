@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link class="icon" rel="shortcut icon" type="x-icon" href="./assets/images/logo.png">
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GPU HUB</title>
+    <link rel="stylesheet" href="../style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600;700&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/0d9ae5a944.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <!-- header -->
+
+
+
+    <section class="product-page-header">
+        <nav>
+            <a href="../index.html"> <img src="../assets/images/logo.png" alt="Logo"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="../index.html">HOME</a></li>
+                    <li><a href="../index.html#product-listing">PRODUCTS</a></li>
+                    <li><a href="../warranty-policies.html">WARRANTY POLICY</a></li>
+                    <li><a href="#">ABOUT</a></li>
+
+
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+    </section>
+
+    <!----------- RX 580 Product Page --------->
+    <section class="py-5">
+        <div class="container px-4 px-lg-5 my-5">
+            <div class="row gx-4 gx-lg-5 align-items-center">
+                <div class="col-md-6"><img class="card-img-top mb-5 mb-md-0" src="../assets/images/rx580listing.webp"
+                        alt="..." /></div>
+                <div class="col-md-6">
+
+                    <h1 class="display-5 fw-bolder">Peladn RX 580 2048SP</h1>
+                    <div class="fs-5 mb-5">
+                        <span class="text-decoration-line-through" style="font-size: large;">BDT 14,000</span>
+                        <span style="color: red
+                        ;font-size: larger;">BDT 12,490</span>
+                    </div>
+                    <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium at dolorem
+                        quidem modi. Nam sequi consequatur obcaecati excepturi alias magni, accusamus eius blanditiis
+                        delectus ipsam minima ea iste laborum vero?</p>
+                    <div class="d-flex">
+
+                        <a href="https://m.me/GPUHubBD" target="_blank"> <button
+                                class="btn btn-outline-dark flex-shrink-0" type="button">
+                                <i class="bi-cart-fill me-1"></i>
+                                BUY NOW
+                            </button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p class="footer-text">We import quality Graphics Cards and provide them to customers in Bangladesh!</p>
+        <div class="icons">
+            <a href="https://www.facebook.com/GPUHubBD" target="_blank" rel="noreferrer noopener"> <i
+                    class="fa-brands fa-facebook-f"></i></a>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin-in"></i>
+        </div>
+    </section>
+
+
+    <!-- ------- JavaScript for Toggle Menu ------- -->
+
+    <script>
+        var navLinks = document.getElementById("navLinks")
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+
+
+    </script>
+</body>
+
+</html>
