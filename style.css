@@ -390,21 +390,21 @@ nav .fa-solid {
     }
 }
 
-.card{
+.card {
     transition: transform .5s ease
 }
 
-.card:hover{
+.card:hover {
     transform: scale(1.1);
     box-shadow: #000000 .5px 1px;
 }
 
-.product-cards{
+.product-cards {
     color: black;
     text-decoration: none;
 }
 
-.product-page-header{
+.product-page-header {
     background-color: #000000;
 }
 
@@ -416,7 +416,7 @@ nav .fa-solid {
     text-align: center;
     padding-bottom: 0px;
     background-color: #181717;
-    
+
 }
 
 .footer h4 {
@@ -427,13 +427,13 @@ nav .fa-solid {
     font-size: large;
     padding-top: 3%;
     padding-bottom: .5%;
-    
+
 }
 
 
 .footer-text {
     color: white;
-   
+
 }
 
 
@@ -676,11 +676,16 @@ nav .fa-solid {
     padding-left: 9%;
 }
 
-.new-price{
+.new-price {
     color: red;
     margin-top: -5%;
 }
 
-.old-price{
+.new-pricent {
+    color: black;
+    margin-top: -5%;
+}
+
+.old-price {
     font-size: small;
 }
