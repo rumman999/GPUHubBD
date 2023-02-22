@@ -437,6 +437,19 @@ nav .fa-solid {
 }
 
 
+.icons .fa-solid {
+    color: #f44336;
+    margin: 0 13px;
+    cursor: pointer;
+    padding: 18px 0;
+}
+
+.icons .fa-sharp {
+    color: #f44336;
+    margin: 0 13px;
+    cursor: pointer;
+    padding: 18px 0;
+}
 
 .icons .fa-brands {
     color: #f44336;
@@ -688,4 +701,46 @@ nav .fa-solid {
 
 .old-price {
     font-size: small;
+}
+
+.blog-content .warning {
+    color: red;
+}
+
+.aboutheader {
+    margin-left: 46.1%;
+    padding-top: 4%;
+    padding-bottom: 1%;
+
+}
+
+.abouttxt {
+    margin-left: 24%;
+}
+
+
+.abouticons {
+    margin-left: 45%;
+}
+
+
+.aicons .fa-solid {
+    color: #000000;
+    margin: 0 13px;
+    cursor: pointer;
+    padding: 18px 0;
+}
+
+.aicons .fa-sharp {
+    color: #000000;
+    margin: 0 13px;
+    cursor: pointer;
+    padding: 18px 0;
+}
+
+.aicons .fa-brands {
+    color: #000000;
+    margin: 0 13px;
+    cursor: pointer;
+    padding: 18px 0;
 }
